@@ -134,6 +134,10 @@ def doc():
         http://localhost:5000/mock-tweets<br />
         Optionally, to purge database: http://localhost:5000/purge-db"""
 
+@app.route("/test")
+def test(): 
+    return """Test"""
+
 # Returns an encoded userid as jwt access and a refresh tokens. Requires username 
 # and password. Refresh token not used. Only meant to be used with token issuer,
 # but here the token issuer and the be are one and the same.
