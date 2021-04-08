@@ -30,6 +30,6 @@
 and `http://localhost:5004/tweets`
 * AWS codebuild can be configured with buildspec.yml file present in Repo by connecting with the git hub repo url to codebuild
 * Codebuild will build the code and generate docker images and push the images to ECR
-* Continuous Delivery is achieved through ALB. Create an ALB and do necessary configuration and application can be accessed via ALB URL
+* Continuous Delivery is achieved through ALB. Create an ALB and do necessary configuration and application can be accessed via ALB URL.
 
 
